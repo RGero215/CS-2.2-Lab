@@ -108,15 +108,41 @@ if __name__ == "__main__":
     g = Graph()
 
     # Add your friends
-    g.add_vertex("Friend 1")
-    g.add_vertex("Friend 2")
-    g.add_vertex("Friend 3")
+
 
     # ...  add all 10 including you ...
+    g.add_vertex("Ramon Geronimo")
+    g.add_vertex("Jessie Pichardo")
+    g.add_vertex("Eduardo Geronimo")
+    g.add_vertex("Joel Pichardo")
+    g.add_vertex("Mariela Caceres")
+    g.add_vertex("Fran Geronimo")
+    g.add_vertex("Juan Geronimo")
+    g.add_vertex("Danesky Orlandini")
+    g.add_vertex("Junior Dominguez")
+    g.add_vertex("Catherine Rosalba")
 
     # Add connections (non weighted edges for now)
-    g.add_edge("Friend 1", "Friend 2")
-    g.add_edge("Friend 2", "Friend 3")
+
+    g.add_edge("Ramon Geronimo", "Jessie Pichardo")
+    g.add_edge("Ramon Geronimo", "Eduardo Geronimo")
+    g.add_edge("Ramon Geronimo", "Joel Pichardo")
+    g.add_edge("Ramon Geronimo", "Mariela Caceres")
+    g.add_edge("Ramon Geronimo", "Fran Geronimo")
+    g.add_edge("Ramon Geronimo", "Juan Geronimo")
+    g.add_edge("Ramon Geronimo", "Danesky Orlandini")
+    g.add_edge("Ramon Geronimo", "Junior Dominguez")
+    g.add_edge("Ramon Geronimo", "Catherine Rosalba")
+
+    g.add_edge("Jessie Pichardo", "Ramon Geronimo")
+    g.add_edge("Jessie Pichardo", "Eduardo Geronimo")
+    g.add_edge("Jessie Pichardo", "Joel Pichardo")
+    g.add_edge("Jessie Pichardo", "Mariela Caceres")
+    g.add_edge("Jessie Pichardo", "Fran Geronimo")
+    g.add_edge("Jessie Pichardo", "Juan Geronimo")
+    g.add_edge("Jessie Pichardo", "Danesky Orlandini")
+    g.add_edge("Jessie Pichardo", "Junior Dominguez")
+    g.add_edge("Jessie Pichardo", "Catherine Rosalba")
 
     # Challenge 1: Output the vertices & edges
     # Print vertices
